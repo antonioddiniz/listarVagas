@@ -1,0 +1,10 @@
+<h1>Hello world</h1>
+<div *ngFor="let job of jobs">
+    <div class="job">
+      <h1>{{ job.title }}</h1>
+      <h2>{{ job.department }}</h2>
+      <h2>{{ job.location }}</h2>
+      <a [href]="job.link" target="_blank">Ver Detalhes</a>
+    </div>
+</div>
+  
